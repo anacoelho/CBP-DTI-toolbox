@@ -7,7 +7,6 @@ Coelho, A., Magalhaes, R., Moreira, P. S., Amorim, L., Portugal-Nunes, C., Casta
 
 ## Requirements:
 - Matlab
-- Cluster_Ensembles (to install: pip install -U git+https://github.com/mvr320/Cluster_Ensembles)
 - FSL (follow instructions from their website: https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
 - Python with the following libraries (all available to install with pip):
   - `numpy`
@@ -20,6 +19,7 @@ Coelho, A., Magalhaes, R., Moreira, P. S., Amorim, L., Portugal-Nunes, C., Casta
   - `matplotlib`
   - `sklearn`
   - `SimpSOM`
+  - `Cluster_Ensembles`
   - `tqdm`
   - `multiprocessing`
   - `joblib`
