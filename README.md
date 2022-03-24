@@ -9,6 +9,20 @@ Coelho, A., Magalhaes, R., Moreira, P. S., Amorim, L., Portugal-Nunes, C., Casta
 - Matlab
 - Cluster_Ensembles (to install: pip install -U git+https://github.com/mvr320/Cluster_Ensembles)
 - FSL (follow instructions from their website: https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
+- Python with the following libraries (all available to install with pip):
+  - `numpy`
+  - `nipype`
+  - `nibabel`
+  - `cc3d`
+  - `pandas`
+  - `pickle`
+  - `scipy`
+  - `matplotlib`
+  - `sklearn`
+  - `SimpSOM`
+  - `tqdm`
+  - `multiprocessing`
+  - `joblib
 
 ## Usage:
 ``` bash pipeline.sh code_dir in_dir wd data_dir subj_list atlas nrois min_k max_k transform thr nsim size_thr steps```
