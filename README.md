@@ -22,7 +22,7 @@ Coelho, A., Magalhaes, R., Moreira, P. S., Amorim, L., Portugal-Nunes, C., Casta
   - `SimpSOM`
   - `tqdm`
   - `multiprocessing`
-  - `joblib
+  - `joblib`
 
 ## Usage:
 ``` bash pipeline.sh code_dir in_dir wd data_dir subj_list atlas nrois min_k max_k transform thr nsim size_thr steps```
