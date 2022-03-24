@@ -11,19 +11,23 @@ Coelho, A., Magalhaes, R., Moreira, P. S., Amorim, L., Portugal-Nunes, C., Casta
 - FSL (follow instructions from their website: https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
 
 ## Usage:
-bash pipeline.sh <path to this repository's directory> <path to folder with connectivity matrices> 
-  <path to working directory> 
-    <path to folder with image data> 
-      <file with participants IDs> 
-        <atlas name> 
-          <atlas total number of regions> 
-            <mininum number of clusters> 
-              <maximum number of clusters> 
-                <name of transform to normalize matrices> 
-                  <threshold value for matrices> 
-                    <number of simulations for SOMs> 
-                      <minimum size for clusters> 
-                        <array with the steps of the pipeline to run>
+``` bash pipeline.sh code_dir in_dir wd data_dir subj_list atlas nrois min_k max_k transform thr nsim size_thr steps```
+
+Parameters: 
+- `code_dir`: path to this repository's directory
+- `in_dir`: path to folder with connectivity matrices
+- `wd`:path to working directory 
+- `data_dir`: path to folder with image data
+- `subj_list`: file with participants IDs
+- `atlas`: atlas name
+- `nrois`: atlas total number of regions
+- `min_k`: mininum number of clusters
+- `max_k`: maximum number of clusters
+- `transform`: name of transform to normalize matrices
+- `thr`: threshold value for matrices
+- `nsim`: number of simulations for SOMs
+- `size_thr`: minimum size for clusters
+- `steps`: array with the steps of the pipeline to run
   
 Input data (one folder per participant):
   - structural connectivity matrices (fdt_matrix2.dot from probtrackX)
